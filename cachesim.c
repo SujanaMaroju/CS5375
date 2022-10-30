@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 	float cache_hit_rate=0;
 	Result= d_cache.hits + d_cache.misses;
 	cache_miss_rate= (d_cache.misses*100/Result);
-	cache_miss_rate= (d_cache.misses*100/Result);
+	cache_hit_rate= (d_cache.hits*100/Result);
 	printf("Cache_hit_rate: %.2f\n", cache_hit_rate);
 	printf("Cache_miss_rate: %.2f\n", cache_miss_rate);
 	  
