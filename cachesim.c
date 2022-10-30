@@ -338,7 +338,6 @@ void direct_mapped_cache_access(struct direct_mapped_cache *cache, uint64_t addr
 
 
 
-
 //***********************
 // N WAY Mapped - FUNCTION **
 //*********
